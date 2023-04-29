@@ -6,10 +6,104 @@ KELAS : TI 3C
 NIM : 2041720253
 
 MATAKULIAH : BIG DATA
+# TUGAS 1
+# PRAKTIKUM / LANGKAH-LANGKAH
+
+
+
+## 1. ANALITIK DENGAN DATAFRAME
+<br>
+Kode 1 
+
+- Membuat mylist dan myschema dengan data berikut
+
+![Screenshot](./00images/kode0.jpeg)
+
+
+Kode 2
+- membuat dataframe yang berisi mylist dan myschema
+
+![Screenshot](./00images/kode1.jpeg)
+
+Kode 3
+- membuat dataset menjadi RDD kemudian mengubah menjadi dataframe
+
+![Screenshot](./00images/kode2.jpeg)
+
+Kode 4
+- membuat file people.txt berada pada direktori hdfs
+
+![Screenshot](./00images/kode4.jpeg)
+
+Kode 5
+- membaca data dari file dan melakukan query dimana age > 19
+
+![Screenshot](./00images/kode5.jpeg)
+
+Kode 6 
+- membaca file text dari metode sc, kemudian membagi setiap baris menjadi array menggunakan split kemudian mengubah df_people menjadi sebuah temp view bernama people dan diakses dengan query dengan kata from people
+
+![Screenshot](./00images/kode6.jpeg)
+
+## 2. Membuat DataFrame dari Database Eksternal
+
+Kode 7
+- Disini untuk kode 7 mengalami error terkait dengan koneksi JDBC ke database. Kesalahan ini terjadi karena driver JDBC tidak compatible
+
+![Screenshot](./00images/kode7.jpeg)
+
+Kode 8
+- Disini Kode 8 juga mengalami error terkait dengan koneksi JDBC ke database. Kesalahan ini terjadi karena driver JDBC tidak compatible
+
+![Screenshot](./00images/kode8.jpeg)
+
+## 3. Mengonversi DataFrames ke RDDs
+
+Kode 9
+- mengonversi DataFrame menjadi RDD, dan menampilkan data RDD menggunakan metode collect dan take.
+
+![Screenshot](./00images/kode9.jpeg)
+
+
+## 4. Membuat Datasets
+
+Kode 10
+- Membuat RDD dari case class kemudian membuat Dataset dan DataFrame dari RDD
+
+![Screenshot](./00images/kode10.jpeg)
+
+Kode 11
+- memfilter dataset deptDS berdasarkan lokasi yang lebih besar dari 1, dan kemudian menampilkan hasilnya pada console
+
+![Screenshot](./00images/kode11.jpeg)
+
+
+## 5. Mengonversi DataFrame ke Datasets dan sebaliknya
+
+Kode 12
+- konversi antara dataset dan dataframe menggunakan metode as dan toDF
+
+![Screenshot](./00images/kode12.jpeg)
+
+
+## 6. Mengakses Metadata menggunakan Catalog
+
+Kode 13
+- menampilkan dan mengecek daftar yang terdapat pada database dan kode terakhir menujukkan fungsi yang tersedia
+
+![Screenshot](./00images/kode13.jpeg)
+
+
+## 7. Bekerja dengan berkas teks
+
+Kode 14
+- membaca file teks "people.txt" dan memuatnya ke dalam DataFrame "df_txt" menggunakan fungsi spark.read.text(). kemudian ditampilkan dengan fungsi show()
+
+![Screenshot](./00images/kode14.jpeg)
 
 # TUGAS 1
 
-PERTANYAAN
+# PERTANYAAN
 
 Jelaskan masing-masing dari code berikut sesuai nomor code.
 
